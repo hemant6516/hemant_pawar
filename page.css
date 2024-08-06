@@ -1,0 +1,107 @@
+#main{
+    position: relative;
+}
+#name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-weight: 400;
+    color: lightslategray ;
+    -webkit-text-stroke-color:black;
+    -webkit-text-stroke-width: 1px;
+    font-size:x-large;
+}   
+#backimg{
+    margin-top: 0px;
+    width: 1144px;
+    height: 400px;
+    background-image: url('download.jpeg') ;
+    height: 58vh;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    border-radius: 5px;
+}
+h3{
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;
+}
+#logo{
+    width: 100px;
+    margin-left: 10px;
+}
+.rect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 0px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 80px;
+}
+.tw{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 3px black ;
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+    margin-right: 150px;
+    overflow: hidden;
+}
+.tw img{
+    height: 150px;
+    width: 250px;
+}
+.fw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:solid 3px black;
+    border-radius: 15px;
+    width: 250px;
+    height: 150px;
+    margin-left: 150px;
+    overflow: hidden;
+}
+.fw img{
+    height: 150px;
+    width: 250px;
+}
+.vehicle{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    border-radius: 15px;
+    width: 100%;
+}
+.vehicle1{
+    font-size: 40px;
+    margin-right: 270px;
+    
+}
+.vehicle1:hover{
+    text-decoration: underline 2px;
+}
+.vehicle2{
+    font-size: 40px;
+    margin-left: 200px;
+}
+.vehicle2:hover{
+    text-decoration:underline 2px;
+}
+.us{
+    background-color: peru;
+    color: rgb(55, 47, 43);
+    margin-top: 130px;
+}

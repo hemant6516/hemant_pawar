@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px ;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bike-type {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.bike-type img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bike-type h2 {
+    margin-top: 0;
+}
+
+.bike-type p {
+    text-align: left;
+}
+
+.sport{
+height: 100px;
+width: 150px;
+border: solid wheat;
+border-radius: 15px;
+}
+.cruiser{
+    height: 150px;
+    width: 150px;
+    border: solid wheat;
+border-radius: 15px;
+}
+.tour{
+    height: 100px;
+    width: 150px;
+    border: solid wheat;
+border-radius: 15px;
+}
+.adventure{
+    height: 150px;
+    width: 150px;
+    border: solid wheat;
+border-radius: 15px;
+}
+.ev{
+    height: 100px;
+    width: 190px;
+    border: solid wheat;
+border-radius: 15px;
+}
+.scooter{
+    height: 100px;
+    width: 200px;
+    border: solid wheat;
+border-radius: 15px;
+}
+.main{
+    background-color: antiquewhite;
+}
+h2:hover{
+    text-decoration: underline;
+}
